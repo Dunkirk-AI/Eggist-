@@ -1,0 +1,21 @@
+# Local dependencies and build output
+node_modules/
+dist/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and local test artifacts
+*.log
+Test/
+test-results/
+.playwright-cli/
+.DS_Store
+Thumbs.db
